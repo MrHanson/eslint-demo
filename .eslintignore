@@ -1,0 +1,7 @@
+dist/
+public/
+docs/
+test/
+.gitlab
+.vscode
+node_modules/
