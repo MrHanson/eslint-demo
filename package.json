@@ -2,15 +2,15 @@
   "name": "eslint-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app/app.js",
   "scripts": {
     "test": "echo \"unit Test\"",
-    "lint": "echo \"lint code\"",
+    "lint": "eslint app/",
     "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^7.32.0",
     "husky": "^7.0.0",
